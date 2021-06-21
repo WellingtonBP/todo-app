@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+:root {
+  --bright-blue: #3a7bfd;
+  --light-blue: #57ddff;
+  --purple: #c058f3;
+  --very-light-gray: #fafafa;
+  --very-light-grayish-blue: #e4e5f1;
+  --light-grayish-blue: #d2d3db;
+  --dark-grayish-blue: #9394a5;
+  --ultra-dark-grayish-blue: #484b6a;
+  --very-dark-blue: #161722;
+  --very-dark-desaturated-blue: #25273c;
+  --very-dark-grayish-blue: #777a92;
+  font-size: 62.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--very-light-grayish-blue) url('./assets/bg-mobile-light.jpg')
+    top no-repeat;
+  background-size: 100% auto;
+}
+
+body.dark {
+  background-color: var(--very-dark-blue);
+  background-image: url('./assets//bg-mobile-dark.jpg');
+}
+
+@media (min-width: 576px) {
+  body {
+    background-image: url('./assets/bg-desktop-light.jpg');
+  }
+  body.dark {
+    background-image: url('./assets/bg-desktop-dark.jpg');
+  }
 }
