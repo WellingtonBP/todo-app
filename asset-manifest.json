@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/todo-app/static/css/main.c5d51a8b.chunk.css",
+    "main.js": "/todo-app/static/js/main.3c6a34a7.chunk.js",
+    "main.js.map": "/todo-app/static/js/main.3c6a34a7.chunk.js.map",
+    "runtime-main.js": "/todo-app/static/js/runtime-main.6a50f2a5.js",
+    "runtime-main.js.map": "/todo-app/static/js/runtime-main.6a50f2a5.js.map",
+    "static/js/2.1554cccb.chunk.js": "/todo-app/static/js/2.1554cccb.chunk.js",
+    "static/js/2.1554cccb.chunk.js.map": "/todo-app/static/js/2.1554cccb.chunk.js.map",
+    "index.html": "/todo-app/index.html",
+    "static/css/main.c5d51a8b.chunk.css.map": "/todo-app/static/css/main.c5d51a8b.chunk.css.map",
+    "static/js/2.1554cccb.chunk.js.LICENSE.txt": "/todo-app/static/js/2.1554cccb.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/todo-app/static/media/bg-desktop-light.3508d620.jpg",
+    "static/media/icon-check.a8fb15d0.svg": "/todo-app/static/media/icon-check.a8fb15d0.svg",
+    "static/media/icon-cross.6ee81d30.svg": "/todo-app/static/media/icon-cross.6ee81d30.svg",
+    "static/media/icon-moon.6c03114b.svg": "/todo-app/static/media/icon-moon.6c03114b.svg",
+    "static/media/icon-sun.910b1f9a.svg": "/todo-app/static/media/icon-sun.910b1f9a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a50f2a5.js",
+    "static/js/2.1554cccb.chunk.js",
+    "static/css/main.c5d51a8b.chunk.css",
+    "static/js/main.3c6a34a7.chunk.js"
+  ]
+}
